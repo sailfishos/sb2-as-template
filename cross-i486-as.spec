@@ -1,5 +1,5 @@
 Name:           cross-i486-as
-Version:        0.1+git1
+Version:        1.0+git1
 Release:        1
 Summary:        AS Hack
 License:        BSD
