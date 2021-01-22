@@ -4,6 +4,7 @@ Release:        1
 Summary:        AS Hack
 License:        BSD
 
+Source101: precheckin.sh
 Requires:  cross-armv7hl-binutils
 
 %description
