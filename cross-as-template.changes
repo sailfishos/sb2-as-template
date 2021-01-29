@@ -1,2 +1,5 @@
+* Fri Jan 29 2021 Niels Breet <niels.breet@jolla.com> - 1.0+git2
+- Fix aarch64 link. JB#51574
+
 * Thu Jan 21 2021 David Greaves <david.greaves@jolla.com> - 1.0+git1
 - Package as in a place rust's crossing cc can find it. JB#36422
