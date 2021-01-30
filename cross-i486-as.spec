@@ -15,12 +15,12 @@ Hack to make gcc find as during rust cross-builds
 %build
 
 %install
-mkdir -p %{buildroot}/opt/cross/libexec/gcc/i486-meego-linux-gnueabi
-cd %{buildroot}/opt/cross/libexec/gcc/i486-meego-linux-gnueabi
-ln -s ../../../bin/i486-meego-linux-gnueabi-as as
+mkdir -p %{buildroot}/opt/cross/libexec/gcc/i486-meego-linux-gnu
+cd %{buildroot}/opt/cross/libexec/gcc/i486-meego-linux-gnu
+ln -s ../../../bin/i486-meego-linux-gnu-as as
 
 %files
 %defattr(-,root,root,-)
-%exclude /opt/cross/libexec/gcc/i486-meego-linux-gnueabi/documentation.list
-%dir /opt/cross/libexec/gcc/i486-meego-linux-gnueabi
-/opt/cross/libexec/gcc/i486-meego-linux-gnueabi/as
+%exclude /opt/cross/libexec/gcc/i486-meego-linux-gnu/documentation.list
+%dir /opt/cross/libexec/gcc/i486-meego-linux-gnu
+/opt/cross/libexec/gcc/i486-meego-linux-gnu/as
