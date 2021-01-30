@@ -1,5 +1,5 @@
 Name:           cross-aarch64-as
-Version:        1.0+git1
+Version:        1.0+git2
 Release:        1
 Summary:        AS Hack
 License:        BSD
